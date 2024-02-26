@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-=======
-KAU_01.data.unityweb filter=lfs diff=lfs merge=lfs -text
->>>>>>> c11503bbc65891bf9fa02f21148612adb6df0866
 Build/KAU_01.data.unityweb filter=lfs diff=lfs merge=lfs -text
