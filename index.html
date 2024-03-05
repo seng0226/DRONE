@@ -34,7 +34,8 @@
         productVersion: "0.1",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
-      });
+      }).then((unityInstance) => {window.unityInstance = unityInstance;})
     </script>
+      <div style="cursor:pointer; float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center;" onclick="unityInstance.SetFullscreen(1)"></div>
   </body>
 </html>
